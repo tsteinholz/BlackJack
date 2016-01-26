@@ -18,3 +18,10 @@ target_link_libraries (BlackJack allegro
                         allegro_physfs
                         allegro_primitives
                         allegro_ttf)
+
+install(
+	TARGETS BlackJack
+	RUNTIME DESTINATION bin
+	DESTINATION /usr/local/games
+)
+
